@@ -36,6 +36,6 @@ Navigate to [`manifests/cilium-gateway-api-demo`](./manifests/cilium-gateway-api
 
 ---
 
-## Slides
+## Slides from Meetup
 
 Find the slides [here](https://speakerdeck.com/muecahit/gateway-api-slides).
