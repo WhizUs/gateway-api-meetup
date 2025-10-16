@@ -24,10 +24,18 @@ cilium install --version 1.18.2 --values manifests/cilium/values.yaml
 
 ### 4. Deploy Demo Application
 
-Navigate to the `manifests/cilium-gateway-api-demo` directory and deploy the demo or explore the Gateway API features.
+Navigate to [`manifests/cilium-gateway-api-demo`](./manifests/cilium-gateway-api-demo/) and deploy the demo, or explore Gateway API features.
+
+---
 
 ## Next Steps
 
-- Go to [`manifests/cilium-gateway-api-demo`](./manifests/cilium-gateway-api-demo/) for the complete demo
-- Explore Gateway API routing, traffic splitting, and canary deployments
-- Experiment with different Gateway API configurations
+- Visit [`manifests/cilium-gateway-api-demo`](./manifests/cilium-gateway-api-demo/) for the complete demo.
+- Explore Gateway API routing, traffic splitting, and canary deployments.
+- Experiment with different Gateway API configurations.
+
+---
+
+## Slides
+
+Find the slides [here](https://speakerdeck.com/muecahit/gateway-api-slides).
