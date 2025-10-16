@@ -1,0 +1,26 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: echo-server
+  namespace: demo-app
+  labels:
+    app: echo-server
+spec:
+  containers:
+    - name: echo-server
+      image: ealen/echo-server:0.9.2
+      resources: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: echo-server
+  namespace: demo-app
+spec:
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  selector:
+    app: echo-server
+  type: ClusterIP

@@ -1,0 +1,1 @@
+cilium install --version 1.18.2 --values values.yaml

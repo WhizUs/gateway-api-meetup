@@ -1,0 +1,18 @@
+ipam:
+  mode: "kubernetes"
+nodePort:
+  enabled: true
+hostPort:
+  enabled: true
+externalIPs:
+  enabled: true
+
+gatewayAPI:
+  enabled: true
+  hostNetwork:
+    enabled: true
+    # sharedHTTPPort: 30080
+    # sharedTLSPassthroughPort: 30443
+    # nodes:
+    #   matchLabels:
+    #     kubernetes.io/os: linux
